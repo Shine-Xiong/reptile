@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="reptile.mapper.BooksMapper">
+    <!--
+    namespace:名称空间;指定为接口的全类名
+    id：唯一标识
+    resultType：返回值类型
+    #{id}：从传递过来的参数中取出id值
+    public Employee getEmpById(Integer id);
+     -->
+    <select id="getName" resultType="Map" parameterType="String" >
+		select books_id from books where books_name = #{name}
+	</select>
+
+    <insert id="insert" parameterType="Map">
+        INSERT INTO books (books_name,books_author,books_introduce,books_img,two_id,books_creationtime)
+                       VALUES
+                       (#{books_name},#{books_author},#{books_introduce},#{books_img},#{two_id},#{books_creationtime})
+    </insert>
+</mapper>

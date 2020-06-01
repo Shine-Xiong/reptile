@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="reptile.mapper.BooksChapterMapper">
+    <select id="QueryById" resultType="Map" parameterType="int">
+        SELECT chapter_id,chapter_title FROM books_chapter WHERE chapter_booksid = #{id}
+    </select>
+    <insert id="AddChapter" parameterType="Map">
+        INSERT INTO books_chapter(chapter_booksid,chapter_title,chapter_text,chapter_creationtime)
+        VALUES (#{chapter_booksid},#{chapter_title},#{chapter_text},#{chapter_creationtime})
+    </insert>
+</mapper>
