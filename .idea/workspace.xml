@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3728d362-064c-4d77-8d85-54fb6f13b489" name="Default Changelist" comment="" />
+    <list default="true" id="3728d362-064c-4d77-8d85-54fb6f13b489" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/reptile/utils/Bookutil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="128" column="63" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="63" />
+            <state relative-caret-position="225">
+              <caret line="129" column="51" selection-start-line="129" selection-start-column="51" selection-end-line="129" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,8 +206,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="694" />
-    <option name="y" value="167" />
+    <option name="x" value="972" />
+    <option name="y" value="284" />
     <option name="width" value="1380" />
     <option name="height" value="784" />
   </component>
@@ -300,7 +302,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -390,15 +392,24 @@
       <workItem from="1585128424606" duration="243000" />
       <workItem from="1585198557337" duration="939000" />
       <workItem from="1588311220928" duration="11000" />
-      <workItem from="1591004976438" duration="719000" />
+      <workItem from="1591004976438" duration="960000" />
     </task>
+    <task id="LOCAL-00001" summary="完成奇书网所有小说抓取">
+      <created>1591005810157</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591005810158</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110604000" />
+    <option name="totallyTimeSpent" value="110845000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="694" y="167" width="1380" height="784" extended-state="0" />
+    <frame x="770" y="302" width="1380" height="784" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2962121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -434,6 +445,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成奇书网所有小说抓取" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成奇书网所有小说抓取" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/util/bookutil.java" />
@@ -689,8 +704,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/reptile/utils/Bookutil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="128" column="63" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="63" />
+        <state relative-caret-position="225">
+          <caret line="129" column="51" selection-start-line="129" selection-start-column="51" selection-end-line="129" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
